@@ -1,14 +1,33 @@
-Simple Plugin to maintain column height on resize for containers on page with text that flows
+#Evenout
 
-On document ready attach class to even out command.
-Every resize the largest column height will be assigned to all similarly named columns. 
+## Documentation
+* [Purpose](#purpose)
+* [Using Function](#using-function)
+* [License](#license)
 
+## Purpose
 
-Useage:
+A JQuery extension to keep columns uniform as interior text boxes reflow on window resize.
 
-$('.class_name').evenout();
+## Using Function
 
+### Usage :
 
+On document ready call to `evenout` on a selector. On window resize all elements with the selector will increase their height to match the element with largest height.
+
+### Params :
+
+- `selector`	- Request url
+
+### Implementation:
+
+```javascript
+$('selector').evenout();
+```
+
+---
+
+## License
 
 The MIT License (MIT)
 
