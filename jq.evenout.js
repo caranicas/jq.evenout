@@ -1,6 +1,6 @@
 (function( $ ) {
  
-    $.fn.evenout = function(  ) {
+    $.fn.evenout = function() {
 		
 		var height = 0;
 		var self = this;
